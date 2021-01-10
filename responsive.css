@@ -6,7 +6,7 @@
   }
   
   .contaier {
-    width:1800px;
+    width:500px;
   }
   
 
@@ -25,7 +25,7 @@
     height: 7500px;
     width: 1400px;
     background-color:#222222		;
-    border:double 20px white;
+    border:double 20px red;
   }
 
   footer { 
