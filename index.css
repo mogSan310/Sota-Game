@@ -198,6 +198,11 @@ header {
     padding-top:130px;
   }
 
+  #nohidden {
+    padding-left: 650px;
+    padding-top:130px;
+  }
+
   .Omikuji img:hover{
     box-shadow:  0 10px 10px #666666;
     transition: all 0.3s;
