@@ -8,7 +8,7 @@
   }
   
   .contaier {
-    width:375px;
+    width:414px;
   }
   
 
@@ -27,7 +27,7 @@
     height: 5400px;
     width: 385px;
     background-color:#222222		;
-    border:double 10px red;
+    border:double 10px #90EE90;
   }
 
   footer { 
@@ -183,6 +183,8 @@
     padding-left:10px;
     padding-top:250px;
     color: white;
+    width: 380px;
+
   }
 
   .Omikuji img{
@@ -197,6 +199,10 @@
 
   #click {
     padding-top:25px;
+    font-size: 20px;
+    width: 370px;
+    padding-left: 35px;
+
   }
 
   .Janken{
