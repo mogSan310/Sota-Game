@@ -8,7 +8,7 @@
   }
   
   .contaier {
-    width:414px;
+    width:380px;
   }
   
 
@@ -79,8 +79,8 @@
     padding-right:30px;
     padding-left:10px;
     background-color: gray;
-    width: 240px;
-    height: 200px;
+    width: 250px;
+    height: 220px;
     border:solid 10px white;
    
 
@@ -202,7 +202,16 @@
     font-size: 20px;
     width: 370px;
     padding-left: 35px;
+    visibility:hidden
 
+  }
+
+  #nohidden {
+    position: absolute;
+    top:-320px;
+    font-size: 20px;
+    width: 370px;
+    padding-left: 40px;
   }
 
   .Janken{
