@@ -8,7 +8,7 @@
   }
   
   .contaier {
-    width:414px;
+    width:380px;
   }
   
 
@@ -25,7 +25,7 @@
   
   body {
     height: 5400px;
-    width: 414px;
+    width: 385px;
     background-color:#222222		;
     border:double 10px #90EE90;
   }
