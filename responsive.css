@@ -1,12 +1,10 @@
-@media screen and (max-width:500px) {
-
-  header {
+header {
     background-color:#90EE90;
     height:100px;
   }
   
   .contaier {
-    width:500px;
+    width:1800px;
   }
   
 
@@ -23,9 +21,8 @@
   
   body {
     height: 7500px;
-    width: 1400px;
     background-color:#222222		;
-    border:double 20px red;
+    border:double 20px #90EE90;
   }
 
   footer { 
@@ -39,7 +36,7 @@
   }
 
   .left-container img {
-    width: 300px;
+    width: 400px;
     height: 350px;
     
   }
@@ -174,11 +171,7 @@
     border: solid 10px green;
   }
 
-  .btn-omikuji p{
-    padding-left: 520px;
-    position: absolute;
-    top:450px
-  }
+  
 
   .Janken{
     position:absolute;
@@ -200,12 +193,9 @@
   }
 
 
-  #five {
-
-    position: absolute;
-    top:650px;
-    left: 360px;
-
+  #click {
+    padding-left: 650px;
+    padding-top:130px;
   }
 
   .Omikuji img:hover{
@@ -246,5 +236,3 @@
     left: 740px;
     font-family: monospace;
   }
-
-}
