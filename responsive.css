@@ -1,10 +1,14 @@
-header {
+@media screen and (max-width:500px) {
+
+  
+
+  header {
     background-color:#90EE90;
     height:100px;
   }
   
   .contaier {
-    width:1800px;
+    width:375px;
   }
   
 
@@ -20,40 +24,47 @@ header {
    
   
   body {
-    height: 7500px;
+    height: 5400px;
+    width: 385px;
     background-color:#222222		;
-    border:double 20px #90EE90;
+    border:double 10px #90EE90;
   }
 
   footer { 
     height:200px;
   }
 
-  .main-container h1{
-    font-size:90px;
-    padding-left:180px;
-    color:white;
-  }
+  
 
-  .left-container img {
-    width: 400px;
-    height: 350px;
+  .main-container h1{
+    float: none;
+    font-size:40px;
+    padding-left:10px;
+    color:white;
     
   }
 
-  .right-container img {
-    width: 1200px;
-    height: 200px;
+  .left-container img {
+    
+    width: 220px;
+    height: 180px;
     position: absolute;
-    top:630px;
-    left:250px;
+    left:-28px;    
+  }
+
+  .right-container img {
+    width: 280px;
+    height: 50px;
+    position: absolute;
+    top:430px;
+    left:120px;
   }
 
   .right-container p{
     position: absolute;
-    top:670px;
-    left: 330px;
-    font-size:40px;
+    top:440px;
+    left: 128px;
+    font-size:10px;
     font-family: monospace;
   }
 
@@ -61,15 +72,17 @@ header {
     
     font-family: monospace;
     position: absolute;
-    top:1000px;
-    left: 710px;
-    font-size: 30px;
+    top:560px;
+    left: 70px;
+    font-size: 22px;
     color: white;
+    padding-right:30px;
+    padding-left:10px;
     background-color: gray;
-    width: 350px;
-    height: 350px;
+    width: 240px;
+    height: 200px;
     border:solid 10px white;
-    padding-left: 75px;
+   
 
 
   }
@@ -89,7 +102,7 @@ header {
 
   .game a {
 
-    line-height: 50px;
+    line-height: 26px;
     color: white;
     display: block;
     padding-left: 10px;
@@ -97,106 +110,118 @@ header {
 
   }
 
-
-
-
-  .explain h1 {
-    font-size: 70px;
-    position: absolute;
-    top:-120px
-  }
-
   .explain {
     color:white;
     position: absolute;
-    top:1600px;
+    top:1000px;
     line-height: 40px;
     font-family: monospace;
   }
 
-  .explain p{
+
+
+  .explain h1 {
     font-size: 40px;
-    padding-left: 180px;
-    padding-right: 120px;
+    position: absolute;
+    top:-120px
+  }
+
+  
+
+  .explain p{
+
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 
   }
 
   .explain img{
 
-    width: 300px;
-    height: 350px;
-    padding-top:80px;
-    padding-left: -10px;
+    width: 220px;
+    height: 180px;
+    position: absolute;
+    left:-47px;  
 
   }
 
   .message img{
-    width: 850px;
-    height: 200px;
+    width: 270px;
+    height: 50px;
     position: absolute;
-    top:550px;
-    left:230px;
+    top:650px;
+    left:110px;
   }
 
   .message p {
     position:absolute;
     color:black;
-    top:670px;
-    left: 120px;
+    top:720px;
+    left: 130px;
+    font-size: 12px;
   }
 
   .message h1 {
-    padding-top:1200px;
-    padding-left: 750px;
+    padding-top:1000px;
+    padding-left: 130px;
     text-align: center;
-    font-size: 100px;
+    font-size: 40px;
   }
 
 
   .Omikuji {
     position:absolute;
-    top:3000px;
+    top:2050px;
     font-family: monospace;
+    
   }
 
+  
+
   .Omikuji p {
-    font-size:50px;
-    padding-left:180px;
+    font-size:30px;
+    padding-left:10px;
+    padding-top:250px;
     color: white;
   }
 
   .Omikuji img{
     position: absolute;
-    left: 180px;
+    top:90px;
+    left: 20px;
+    height: 200px;
     border: solid 10px green;
-  }
-
-  
-
-  .Janken{
-    position:absolute;
-    top:900px;
-  }
-  
-  .JumpGame {
-    position: absolute;
-    top:1800px
-  }
-
-  .JumpGame img {
-    height:300px;
-  }
-
-  .Osero {
-    position: absolute;
-    top:2800px;
+    width: 170px;
   }
 
 
   #click {
-    padding-left: 650px;
-    padding-top:130px;
+    padding-top:25px;
   }
+
+  .Janken{
+    position:absolute;
+    top:600px;
+  }
+  
+  .JumpGame {
+    position: absolute;
+    top:1230px;
+  }
+
+  .JumpGame img {
+    width: 220px;
+    height:200px;
+  }
+
+  .Osero {
+    position: absolute;
+    top:1900px;
+  }
+
+ #alert {
+   padding-top:40px;
+ }
 
   .Omikuji img:hover{
     box-shadow:  0 10px 10px #666666;
@@ -205,34 +230,37 @@ header {
 
   .END p {
     position: absolute;
-    top:6800px;
-    left: 110px;
-    font-size: 48px;
+    top:4900px;
+    left: 20px;
+    font-size: 25px;
     color: white;
     font-family: monospace;
   }
 
   .left-END img {
-    width: 300px;
-    height: 350px;
+    width: 220px;
+    height: 180px;
     position: absolute;
-    top:7000px;
-    left: 400px;
+    left:-27px;  
+    top:5100px;
+    
   }
 
   .right-END img {
-    width: 450px;
-    height: 200px;
+    width: 160px;
+    height: 50px;
     position: absolute;
-    top:7150px;
-    left:650px;
+    top:5220px;
+    left:130px;
   }
 
   #last {
     color: black;
-    font-size: 50px;
+    font-size: 20px;
     position: absolute;
-    top: 7170px;
-    left: 740px;
+    top: 5215px;
+    left: 150px;
     font-family: monospace;
   }
+
+}
