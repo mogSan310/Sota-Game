@@ -36,7 +36,7 @@ header {
   }
 
   .left-container img {
-    width: 300px;
+    width: 400px;
     height: 350px;
     
   }
@@ -171,11 +171,7 @@ header {
     border: solid 10px green;
   }
 
-  .btn-omikuji p{
-    padding-left: 520px;
-    position: absolute;
-    top:450px
-  }
+  
 
   .Janken{
     position:absolute;
@@ -197,12 +193,9 @@ header {
   }
 
 
-  #five {
-
-    position: absolute;
-    top:650px;
-    left: 360px;
-
+  #click {
+    padding-left: 650px;
+    padding-top:130px;
   }
 
   .Omikuji img:hover{
@@ -235,7 +228,7 @@ header {
     left:650px;
   }
 
- #last {
+  #last {
     color: black;
     font-size: 50px;
     position: absolute;
